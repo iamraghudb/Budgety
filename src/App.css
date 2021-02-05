@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.title {
+  text-align: center;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  margin-left: 20em;
+  margin-right: 20em;
+}
+
+.form {
+  grid-column: 1/2;
+}
+
+.totals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.input {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.button {
+  margin-bottom: 30px;
+}
+
+.is-primary {
+  background-color: skyblue;
+}
+.is-danger {
+  background-color: red;
+}
